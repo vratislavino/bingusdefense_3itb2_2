@@ -5,7 +5,7 @@ using UnityEngine;
 public class BuildCommand : Command
 {
     public TileDisplay where;
-    public GameObject what;
+    public Building what;
 
     public override void Execute()
     {

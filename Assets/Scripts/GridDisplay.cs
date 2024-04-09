@@ -30,7 +30,7 @@ public class GridDisplay : MonoBehaviour
             {
                 TileViews[i, j] = Instantiate(TilePrefab, transform);
                 TileViews[i, j].transform.localPosition = new Vector3(i * tileSize, 0, -j * tileSize);
-                TileViews[i, j].tileData = gridSystem.Tiles[i, j];
+                TileViews[i, j].TileData = gridSystem.Tiles[i, j];
             }
         }
     }

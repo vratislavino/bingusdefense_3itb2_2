@@ -12,12 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38048e35882b110449163eda73b58ac9, type: 3}
   m_Name: BuildingData
   m_EditorClassIdentifier: 
-  a: 0
   Buildings:
   - BuildingType: 0
     Name: "V\u011B\u017E"
     Description: asasd asd asd asd
+    Price: 100
+    Prefab: {fileID: 6130294622683190220, guid: 2b6f861c0f6285e4fbc8e40aff687505,
+      type: 3}
   - BuildingType: 1
     Name: "N\xE1boje"
     Description: asasd asd asd asdasasd asd asd asdasasd asd asd asdasasd asd asd
       asdasasd asd asd asd
+    Price: 200
+    Prefab: {fileID: 3168465290844350904, guid: 2c181149b306d1248955b0a0a7cd9d14,
+      type: 3}

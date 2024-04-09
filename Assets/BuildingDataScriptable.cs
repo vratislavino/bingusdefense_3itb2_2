@@ -15,6 +15,8 @@ public class BuildingData
     public BuildingType BuildingType;
     public string Name;
     public string Description;
+    public int Price;
+    public Building Prefab;
 
 }
 
